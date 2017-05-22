@@ -22,7 +22,7 @@ public static class HexMetrics{
 
 	public static Vector3 GetFirstCorner(HexDirection direction){
 		return corners [(int)direction];
-	}
+	} 
 
 	public static Vector3 GetSecondCorner(HexDirection direction){
 		return corners [(int)direction+1];

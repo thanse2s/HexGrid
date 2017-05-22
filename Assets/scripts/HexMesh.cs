@@ -7,7 +7,7 @@ public class HexMesh:MonoBehaviour{
 	Mesh hexMesh;
 	List<Vector3> vertices;
 	List<int>triangles;
-	List<Color>colors;
+	List<Color>colors; 
 
 	void Awake(){
 		GetComponent<MeshFilter> ().mesh = hexMesh = new Mesh ();
@@ -31,7 +31,6 @@ public class HexMesh:MonoBehaviour{
 		hexMesh.triangles = triangles.ToArray();
 		hexMesh.RecalculateNormals();
 	}
-
 
 
 	void Triangulate (HexCell cell) {

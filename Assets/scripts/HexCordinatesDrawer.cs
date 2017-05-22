@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEditor;
 
-[CustomPropertyDrawer(typeof(HexCordinates))]
+[CustomPropertyDrawer(typeof(HexCordinates))] 
 public class HexCordinatesDrawer:PropertyDrawer{
 
 	public override void OnGUI(

@@ -4,7 +4,7 @@ public class HexCell:MonoBehaviour{
 
 	public HexCordinates coordinates;
 
-	public int cell_index;
+	public int cell_index;  
 
 	public Color color;
 
