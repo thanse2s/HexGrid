@@ -49,7 +49,7 @@ public class HexGrid:MonoBehaviour{
 		cell.coordinates = HexCordinates.FromOffsetCordinates(x, z);
 		cell.color=defaultColor;
 		cell.cell_index = cell.coordinates.X + cell.coordinates.Z * width + cell.coordinates.Z / 2;
-		gridcolor.setColor (cell);
+		gridcolor.setTestLayout (cell);
 
 		if (x > 0) {
 			cell.SetNeighbor (HexDirection.W, cells [i - 1]);
@@ -79,21 +79,5 @@ public class HexGrid:MonoBehaviour{
 	}
 
 
-
-	void ColorSet(HexCell cell){
-
-		switch (cell.cell_index) {
-		case 1:
-			Debug.Log ("INDEX 1");
-			break;
-		default:
-			Debug.Log ("DEFAULT");
-			break;
-
-
-		}
-		
-	
-	}
 }
 
