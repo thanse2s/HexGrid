@@ -1,16 +1,20 @@
-﻿<Properties StartupConfiguration="{FC017B03-3764-389D-9D3B-4CA61A23A61A}|Unit Tests" GitUserInfo="UsingMD">
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/HexCell.cs">
+﻿<Properties StartupConfiguration="{FC017B03-3764-389D-9D3B-4CA61A23A61A}|Unit Tests" GitUserInfo="UsingMD" StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Assets/scripts/HexCell.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/HexMetrics.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/HexMesh.cs" Line="63" Column="3" />
       <File FileName="Assets/scripts/HexGrid.cs" Line="1" Column="1" />
       <File FileName="Assets/scripts/HexDirection.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/HexCell.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/HexCordinates.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/HexCordinatesDrawer.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
